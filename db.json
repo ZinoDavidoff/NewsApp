@@ -1,0 +1,160 @@
+{
+  "signInAdmin": [
+    {
+      "username": "admin",
+      "password": "Hemingway"
+    }
+  ],
+  "newsArticles": [
+    {
+      "id": 127117,
+      "title": "Kthesa e fortë për Leao-n, “buzëqesh” Milan, tani mund të rinovojë",
+      "author": "Xhulian Musaka",
+      "category": "Sport",
+      "description": "Një pikë kthese befasuese për të ardhmen e Rafael Leaos dhe për rinovimin e kontratës së sulmuesit të Milan që skadon në qershor 2024. Sipas raportimeve të gazetës portugeze Record, në fakt, Lille, skuadra në të cilën Rafa mbërriti nga Sportingu i Lisbonës dhe nga i cili më pas u ble nga kuqezinjtë, është e gatshme të merrë përsipër gjobën e lidhur me transferimin.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/leao-1-scaled-e1680862460430-770x445.jpg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 663831,
+      "title": "FOTO/ “Nuk është Kylian Saint-Germain”, Mbappe shpërthen kundër klubit, krisje mes palëve",
+      "author": "Donaldo Duro",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/mbappe-770x433.jpg",
+      "description": "Nuk ka paqe mes Kylian Mbappe dhe PSG. Këtë herë për të ndezur debatin ndërmjet palëve ka mjaftuar një video, një fushatë reklamuese e klubit për abonimet në sezonin 2023/2024. Ashtu siç pritej, në qendër të fushatës ishte Kylian Mbappe, por ky detaj nuk është pritur mirë nga ylli francez i cili ka reaguar fort në një postimi në rrjetet e tij sociale:",
+      "isFeatured": false,
+      "published": "2023-04-19T12:36:33.390Z"
+    },
+    {
+      "id": 824873,
+      "title": "FOTO/ “I paprekshëm”, AS blindon Ancelottin, por Nagelsmann qëndron si “hije”",
+      "author": "Xhulian Musaka",
+      "category": "Sport",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/nagelsmann-1-770x433.jpg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 604160,
+      "title": "Në kërkim për përdhunim në Itali, arrestohet në Durrës 46-vjeçari i dënuar me 11 vite burg (EMRI)",
+      "author": "Xhulian",
+      "category": "Aktualitet",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/03/1617346265_PoliciAVlore1.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "isFeatured": true,
+      "published": "2023-04-19T12:11:06.539Z"
+    },
+    {
+      "id": 238987,
+      "title": "Gazment Bardhi kërkon largimin nga gara të kandidatit të PS në Mallakastër: Është i dënuar!",
+      "author": "Xhulian",
+      "category": "Politike",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/Gazment-Bardhi-1-768x567.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": true,
+      "published": "2023-04-19T12:34:42.776Z"
+    },
+    {
+      "id": 900805,
+      "title": "QKLL dhe QKK marrëveshje bashkëpunimi, konkurs për skenarë nga romanet shqiptare",
+      "author": "Xhulian",
+      "category": "Kulture",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/Bardhyli-768x512.jpeg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 807824,
+      "title": "Inflacioni ulet ndjeshëm në mars, por rritja e çmimeve të ushqimeve nuk ndalet, me ritme dy shifrore",
+      "author": "Xhulian",
+      "category": "Ekonomi",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/03/ushqime-768x512.jpg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 982073,
+      "title": "Zgjedhjet e jashtëzakonshme në Kosovë, Kurti me nota optimizmi: Janë bërë të gjitha përgatitjet, asnjë qytetari nuk mund t’i cenohet e drejta e votës",
+      "author": "Xhulian",
+      "category": "Rajoni",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/kurti-770x381.jpg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 102657,
+      "title": "Kishte përshtatur banesën në ‘strofull’ për organizimin e paligjshëm të lojërave të fatit, pranga 43-vjeçarit në Sarandë",
+      "author": "Xhulian",
+      "category": "Aktualitet",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/Sarande.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": true,
+      "published": "2023-04-19T12:11:19.159Z"
+    },
+    {
+      "id": 238532,
+      "title": "Dy dekada të izoluar, PE voton sot vendimin për liberalizimin e vizave të Kosovës",
+      "author": "BalkanWeb",
+      "category": "Rajoni",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/340994170_914664649801815_3251516336186150816_n-1-1130x635-1.png",
+      "description": "Parlamenti Evropian voton sot vendimin për liberalizimin e vizave për qytetarët e Kosovës, ndërsa nesër më 19 prill, do nënshkruhet akti ligjor për liberalizimin e vizave, ndërsa hapi i vetëm që duhet të bëhet pas kësaj, është botimi i vendimit në Gazetën Zyrtare të BE-së dhe hyrja në fuqi e tij. Këshilli i ministrave të BE-së e ka miratuar me shumicë të thjeshtë liberalizimin e vizave për Kosovën, muajin e kaluar.\n\nTashmë është e qartë se zbatimi i vendimit nuk do të shtyhet më larg se 1 janari i vitit 2024. Kjo çështje ka qenë e lidhur me sistemin ETIAS të udhëtimit në Evropë, përkatësisht me hyrjen e tij në fuqi. Duke qene se afati për funksionalizimin e ETIAS-it është shtyrë për në vitin 2024, heqja e vizave për qytetarët e Kosovës pritet të bëhet më 1 janar të vitit të ardhshëm.\n\nParlamenti Evropian ka qenë institucioni i BE-së, i cili më së shumti e ka mbështetur lëvizjen e lirë të qytetarëve të Kosovës dhe vazhdimisht ka qortuar Këshillin e BE-së dhe Komisionin Evropian për, siç është thënë, vonesa të panevojshme në këtë proces.",
+      "isFeatured": true,
+      "published": "2023-04-18T09:56:31.920Z"
+    },
+    {
+      "id": 175657,
+      "title": "“Altoparlantët e non-gratës kanë nisur akuzat ndaj meje”/ Alibeaj-Berishës: Dallaveret s’ti beson më njeri. Janë të gjithë në radhë për SPAK",
+      "author": "BalkanWeb",
+      "category": "Politike",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/03/alibeaj-1.jpeg",
+      "description": "Kryetari i komanduar i PD, Enkelejd Alibeaj i është përgjigjur akuzave të ish-kryeministrit Sali Berisha.\n\n“Janë të gjithë në radhë për SPAK. Në fakt nuk i ka shqetësuar çështja e parave dhe financimeve, sepse ato kanë 33 vite që i fshehin në bashkëpunim me mediat e tyre, por se përse Erion Veliaj, ortaku i tyre politik dhe ekonomik, ka bërë të njëjtën pyetje. As nuk kisha ndërmend të merresha fare më një mashtrues kronik si Erion Veliaj, por meqë e kanë merak se përse ai ka ngritur të njëjtën pyetje, le të flasin me të. Unë thjesht ngrita një pyetje, ai me siguri di dhe përgjigjen e kësaj pyetje”, ka thënë ai.\n\nAlibeaj në një status në “Facebook”, thotë se ish-kryeministri nuk i është përgjigjur pyetjes se ku i gjen paratë që prenoton salla për fushatë.\n\nSTATUSI:\n\nReagim publik\n\nPrej dy ditësh, altoparlantët politikë të non-gratës për korrupsion masiv dhe minues i demokracisë, Sali Berishës, dhe mediat e financuara prej tij dhe familjes së tij, kanë filluar një sulm ndaj meje, vetëm e vetëm se unë kam ngritur thjesht një pyetje, që në fakt është një pyetje që e bëjnë të gjithë shqiptarët:\n\nKu i gjen paratë Sali Berisha, i cili ka një vit e gjysmë që prenoton stadiume, prenoton salla në të gjithë Shqipërinë, paguan autobusë dhe njerëz për ti mbushur këto salla, paguan media që të jetë 24 orë live edhe pse ligjërisht nuk është kryetari i asnjë partie politike?\n\nMirëpo Sali Berisha dhe ushtarët e tij mediatikë e politikë, në vend që ti përgjigjen kësaj pyetje dhe të bëjnë transparencën e parave te tyre, si gjithmonë, në stilin e politikës së urrejtjes dhe baltës , në stilin e tij prej politikani tashmë të marrë fund, e ka kthyer oborrin e tij politik e mediatik në mburojë të një njeriu të padëshiruar nga perëndimi për korrupsion masiv dhe minim të demokracisë.\n\nTë gjithë në rresht, për turpin e tyre, bëjnë garë se kush bërtet më shumë, kush fyen më shumë në emër të padronit të tyre.\n\nE kuptoj fare mirë hallin e tyre. Sa herë që i përmendin paratë, Sali Berisha dhe llogoret e tij mediatike në borderonë e tij, ulërasin, bërtasin dhe fyejnë këdo që i kërkon llogari dhe transparencë. E kuptoj fare mirë që ndihen të frikësuar.\n\nJanë të gjithë në radhë për SPAK. Në fakt nuk i ka shqetësuar çështja e parave dhe financimeve, sepse ato kanë 33 vite që i fshehin në bashkëpunim me mediat e tyre, por se përse Erion Veliaj, ortaku i tyre politik dhe ekonomik, ka bërë të njëjtën pyetje. As nuk kisha ndërmend të merresha fare më një mashtrues kronik si Erion Veliaj, por meqë e kanë merak se përse ai ka ngritur të njëjtën pyetje, le të flasin me të. Unë thjesht ngrita një pyetje, ai me siguri di dhe përgjigjen e kësaj pyetje.\n\nPyetja duhet të ishte drejtuar dhe Sali Berishës dhe Erion Velisë, sepse që të dy e dinë ku i gjen paratë Berisha. Sepse ditën bëjnë sikur zihen, ndërsa natën shijojnë lejet e ndërtimit dhe marrëveshjet okulte me kryebashkiakun, përfaqësues të oligarkisë së ndërtimit.\n\nSi ka mundësi që Sali Berisha nuk përmend asnjë oligark, bashkëpunëtor të Erion Velisë në ndërtimet e Tiranës?! A ka kurajo non-grata për korrupsion masiv dhe minues i demokracisë, të denoncojë lejet e ndërtimit të dhëna nga Erion Veliaj?\n\nPërgjigjia është shumë e thjeshtë: janë ortakë politik dhe ekonomik.\n\nOligarkët i kanë bashkë, paratë i ndajnë bashkë, politikën duan që ta zaptojnë bashkë.\n\nE megjithatë, përtej dallavereve politike të Sali Berishës që nuk i beson më askush, thelbi mbetet, pyetja mbetet:\n\nKu i gjen paratë Sali Berisha?\n\nPër përgjigjen, pyesni Erion Velinë. Ai di shumë më shumë se unë dhe se ne bashkë, se ku gjenden këto para.",
+      "isFeatured": true,
+      "published": "2023-04-19T12:35:09.736Z"
+    },
+    {
+      "id": 920513,
+      "title": "Plagosën për vdekje me thikë 20-vjeçarin në Tiranë, arrestohet një nga autorët, tjetri në kërkim",
+      "author": "Xhulian Musaka",
+      "category": "Aktualitet",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2022/08/thike-1-750x375-1.jpg",
+      "description": "Arrestohet një prej autorëve të vrasjes me thikë të 20-vjeçarit, Stivens Toshkesi gjatë natës te Rruga e Dibrës.\n\nBurime zyrtare bënë me dije se pas hekurave ka përfunduar vetëm një prej të rinjve, Ensi Maze, ndërkohë që autori tjetër, Axel Hoxhaj është në kërkim.\n\n“Si rezultat i kontrolleve të pandërprera të shërbimeve të Policisë, është kapur dhe vënë në pranga njëri nga autorët e ngjarjes së ndodhur gjatë natës, shtetasi E. M.”, thuhet në njoftimin shtesë të policisë.",
+      "isFeatured": true,
+      "published": "2023-04-19T10:38:00.738Z"
+    },
+    {
+      "id": 224640,
+      "title": "Neymar sërish baba, e dashura e brazilianit në pritje të ëmbël",
+      "author": "Balkanweb",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/neymar.jpg",
+      "description": "Neymar do të bëhet baba për herë të dytë. E dashura e tij Bruna Biancardi ndau fotot në Instagram, duke i treguar botës lajmin e tyre të lumtur. Krahas pesë fotove të ëmbla, 28-vjeçarja Biancardi shkroi:\n\n“Ne ëndërrojmë jetën tënde, planifikojmë ardhjen tënde dhe ta dish që ti je këtu për të kurorëzuar dashurinë tonë, i bën ditët tona shumë më të lumtura. Do të mbërrini në një familje të bukur, me vëllain, gjyshërit, xhaxhallarët dhe hallat që tashmë të duan shumë. Shihemi së shpejti biri/bija, mezi po të presim!”\n\nFotot tregojnë Neymarin duke mbajtur duart në barkun e partneres teksa puthen. Neymar shihet gjithashtu duke puthur barkun e Brunës, duke pozuar me të në një divan. Neymar ka gjithashtu një djalë 11-vjeçar, të quajtur Davi Lucca. Ylli i PSG-së u bë baba për herë të parë me ish të dashurën Carolina Dantas në moshën vetëm 19-vjeçare.",
+      "isFeatured": false,
+      "published": "2023-04-19T12:25:28.515Z"
+    },
+    {
+      "id": 686561,
+      "title": "“Nepotizëm në Bashkinë Tiranë”/ Zëdhënësja e Këlliçit: Ja lista e njerëzve nga e njëjta familje që i kushtojnë taksave tona 1 mln euro në vit",
+      "author": "Xhulian",
+      "category": "Politike",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/silvi-bardhi-2-768x512.jpg",
+      "description": "“Nepotizëm në Bashkinë Tiranë”/ Zëdhënësja e Këlliçit: Ja lista e njerëzve nga e njëjta familje që i kushtojnë taksave tona 1 mln euro në vit\n",
+      "isFeatured": true,
+      "published": "2023-04-19T12:38:04.501Z"
+    },
+    {
+      "id": 231306,
+      "title": "Bënte avokaten private ndërkohë që punonte në Ministrinë e Kulturës, Prokuroria ende pa hetim për shkeljet e zyrtares Elira Kokona",
+      "author": "Balkanweb",
+      "category": "Politike",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/elira-kokona.jpg",
+      "description": "Edhe pas shpërthimit të skandalit me konfliktin e interesit dhe fshehjen e të ardhurave nga zv.sekretarja e përgjithshme e Kryeministrisë Elira Kokona, prokuroria nuk ka nisur hetimin penal për mos deklarimin e pasurisë dhe interesave private nga nëpunësi publik dhe për shpërdorimin e detyrës. Dy vepra penale këto që dënohen respektivisht deri në 3 vjet burgim dhe deri në 7 vjet burgim.\n\nPo ashtu as Inspektorati i Lartë i Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave, nuk ka nisur ende verifikimet mbi fshehjen e të ardhurave nga Elira Kokona dhe faktin e ushtrimit të profesionit të avokatit privat prej saj, ndërkohë që ishte emëruar në detyra të larta shtetërore.\n\nSipas dokumenteve zyrtare zëvendës sekretarja e përgjithshme e Kryeministrisë Elira Kokona, pas emërimit në detyra të larta qeveritare në 2013, vazhdoi punën si avokate private, madje në çështje kundër vetë qeverisë shqiptare.\n\nNë shpërdorim të pastër detyre, Elira Kokona rezulton se ka përfaqësuar si avokate private paditës të ndryshëm në çështje kundër Shqipërisë në Strasburg apo arbitrazhe, ndërkohë që paralelisht ishte emëruar sekretare e përgjithshme në Ministrinë e Kulturës.\n\nPo ashtu pas emërimit në detyra të larta qeveritare zëvendës sekretarja e përgjithshme e kryeministrisë Elira Kokona, i fshehu Inspektoratit të Lartë të Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave, ushtrimin e aktivitetin e saj privat si avokate. Elira Kokona nuk ka deklaruar po ashtu as të ardhurat nga gjyqet kundër qeverisë në Strasburg apo në arbitrazhe.\n\nMe zgjedhjen ose emërimin e tij e në vazhdim, zyrtari ka për detyrë të parandalojë dhe të zgjidhë vetë, sa më parë dhe në mënyrën më të frytshme të mundshme, çdo gjendje të konfliktit të tij të interesit.\nMe standardet e vettingut për gjyqtarët dhe prokurorët që qeveria ka vendosur, Elira Kokona tashmë duhet të ishte shkarkuar me urgjencë nga detyra dhe të kishte hetimi së paku për dy vepra penale, mos deklarimin e të ardhurave dhe interesave privatë nga nëpunësi publik dhe shpërdorimi i detyrës.",
+      "isFeatured": false,
+      "published": "2023-04-19T13:19:37.884Z"
+    }
+  ]
+}
