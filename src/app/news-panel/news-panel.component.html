@@ -1,0 +1,75 @@
+<div class="wrapper">
+    <div class="container-fluid container-nav">
+        <nav class="navbar justify-content-between">
+            <div [routerLink]="['/']" class="cursor-pointer font-weight-bold font-italic text-primary">
+                <img src="../../assets/logo.png" style="width: 50px;">
+                Blog
+            </div>
+        </nav>
+    </div>
+    <div class=" container-fluid fluid text-right">   
+        <div class="grid-template">
+            <form>
+                <input class="form-control mr-sm-2" [formControl]="searchTerm" type="search" placeholder="Search"
+                    aria-label="Search">
+            </form>
+            <button routerLink="/newpoll" class="btn text-white" style="background-color: #007bff; font-weight: bold;"
+                type="submit">
+                + Add News Poll
+            </button>
+            <button routerLink="/newarticle" class="btn text-white" style="background-color: #007bff; font-weight: bold;"
+                type="submit">
+                + Add News Article
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid fluid">
+        <div class="tableFixHead">
+            <table class="table table-hover" *ngIf="!loading">
+                <thead>
+                    <tr class="table-header">
+                        <th scope="col" style="width: calc(0.5 * 100% / 12)">#</th>
+                        <th scope="col" style="width: calc(1.5 * 100% / 12)">Author</th>
+                        <th scope="col" style="width: calc(1 * 100% / 12)">Category</th>
+                        <th scope="col" style="width: calc(6.5 * 100% / 12)">Title</th>
+                        <th scope="col" style="width: calc(1.5 * 100% / 12)">Publish Date</th>
+                        <th scope="col" style="width: calc(1.5 * 100% / 12)">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let article of allNewsArticles">
+                        <td>{{ article.id }}</td>
+                        <td>{{ article.author }}</td>
+                        <td [ngClass]="getCategoryClass(article.category)">
+                           {{ article.category }}
+                        </td>
+                        <td>{{ article.title | slice:0:100 }}...</td>
+                        <td>{{ article.published | date:'d MMMM y | HH:mm': undefined :'sq-AL' | titlecase}}</td>
+                        <td class="action-buttons">
+                            <span routerLink="/allnewsarticles/article/{{ article.id }}">
+                                <i class="bi bi-eye-fill" style="font-size: 1.25rem; color: #007bff;"></i>
+                            </span>
+                            <span [routerLink]="['/panel', article.id]">
+                                <i class="bi bi-pencil-fill" style="font-size: 1.25rem; color: #357e45;"></i>
+                            </span>
+                            <span (click)="deleteNewsArticle(article.id)">
+                                <i class="bi bi-trash-fill" style="font-size: 1.25rem; color: #BD362F;"></i>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div >
+                <div class="spinner" *ngIf="loading"></div>
+            </div>
+            <div class="spinner-container">
+                <div *ngIf="allNewsArticles?.length === 0 && !loading" class="no-news">There are no news articles with this title...</div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="d-flex sticky-bottom container-fluid text-center">
+            <small>Copyright &copy; News Blog</small>
+        </div>
+    </div>
+</div>

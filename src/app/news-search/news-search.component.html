@@ -1,0 +1,32 @@
+<form class="form-inline">
+    <input class="form-control mr-sm-2" (click)="onSearchInputClick()" [formControl]="searchTerm" type="search" placeholder="Search" aria-label="Search">
+    <div>
+        <span routerLink="/login" class="hidden-login cursor-pointer"><i class="bi bi-lock-fill"></i></span>
+    </div>
+</form>
+
+
+<div>
+    <div *ngIf="searchTerm.value !== '' && isSearchResultsVisible">
+
+        <div *ngIf="!loading">
+            <ul *ngIf="filteredNews?.length > 0" class="filtered-articles p-3 mb-5 bg-white">
+                <li *ngFor="let article of filteredNews" class="cursor-pointer" routerLink="/allnewsarticles/article/{{ article.id }}">
+                    {{ article.title }}
+                </li>
+            </ul>
+            <ul class="filtered-articles p-3 mb-5 bg-white" *ngIf="filteredNews?.length === 0">
+                <li class="text-center">
+                    There are no news articles.
+                </li>
+            </ul>
+        </div>
+        
+        <div *ngIf="loading">
+            <ul class="filtered-articles p-3 mb-5 bg-white" >
+                <li class="spinner" style="margin-bottom: 0;"></li>
+            </ul>    
+        </div>
+        
+    </div>
+</div>

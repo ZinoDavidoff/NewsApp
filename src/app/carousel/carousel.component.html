@@ -1,0 +1,22 @@
+<div id="demo" class="h-100 carousel slide" data-interval="5000" data-ride="carousel" data-touch="true">
+    <ol class="carousel-indicators">
+        <li data-target="#demo" *ngFor="let carousel of carouselNewsArticle; let i = index" [attr.data-slide-to]="i" [ngClass]="{'active': i == 0}"></li>
+    </ol>
+    <div class="carousel-inner h-100">
+        <div class="carousel-item h-100" *ngFor="let carousel of carouselNewsArticle; let i = index"
+            [ngClass]="{'active': i == 0}">
+            <div class="gradient-bg d-flex justify-content-center align-items-center">
+                <img class="d-block h-100" [src]="carousel.image ?? '../../assets/news-default.png'" alt="{{carousel.title}}">
+                <div class="carousel-caption">
+                    <h3 routerLink="/allnewsarticles/article/{{ carousel.id }}" class="title">{{carousel.title}}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>

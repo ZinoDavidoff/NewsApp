@@ -1,0 +1,62 @@
+<div class="container-fluid" style="margin-bottom: 1rem;">
+  <div class="nav-grid sticky-top d-flex align-items-center justify-content-between">
+    <app-news-navbar [ngClass]="'d-flex'"></app-news-navbar>
+  </div>
+  <div class="grid-preview-parents">
+    <div class="grid-parent">
+      <div class="container-details">
+        <div class="card">
+            <h5 class="card-title" style="margin: 0; padding: 1.25rem;">{{article.title}}</h5>
+          <img class="card-img-top" [src]="article.image ?? '../../assets/news-default.png'" alt="{{article.title}}">
+          <div class="card-body">
+            <span class="badge" [ngClass]="getCategoryClass(article.category)">{{article.category}}</span>
+            <div class="author">
+              <span>Author: <i class="bi bi-person-fill" style=" color: #007bff;"></i> {{article.author}}</span>
+            </div>
+            <p style="white-space: break-spaces;">{{article.description}}</p>
+            <span class="published-on" style="font-size: 14px;">
+              {{article.published | date:'d MMMM y | HH:mm': undefined :'sq-AL' | titlecase}}
+            </span>
+          </div>
+          <div class="previous-next-articles">
+            <div *ngIf="previousArticle" class="previous-article">
+              <h5 routerLink="/allnewsarticles/article/{{ previousArticle.id }}" class="news-article-title">{{ previousArticle.title }}</h5>
+              <span class="previous">
+                <i class="bi bi-arrow-left-circle"></i>Previous Article
+              </span>
+            </div>
+            <div *ngIf="nextArticle" class="next-article" [class.next-article-grid] = "!previousArticle">
+              <h5 routerLink="/allnewsarticles/article/{{ nextArticle.id }}" class="news-article-title">{{ nextArticle.title }}</h5>
+              <span class="next">
+                Next Article<i class="bi bi-arrow-right-circle"></i>
+              </span>
+            </div>
+          </div>          
+        </div>
+        <div class="grid-aside-articles">
+          <div class="featured-articles text-primary">
+            <h3 class="font-weight-bold font-italic">Related News</h3>
+          </div>
+            <div class="fixed-sidebar">
+              <div class="news-sidebar">
+                <div class="news-aside-articles" *ngFor="let relatedArticle of relatedArticles | slice:0:15">
+                  <div routerLink="/allnewsarticles/article/{{ relatedArticle.id }}" class="news-article-title">{{ relatedArticle.title}}</div>
+                  <div class="published-on">
+                    {{ relatedArticle.published | date:'d MMMM y | HH:mm': undefined :'sq-AL' | titlecase }}
+                  </div>
+                </div>
+                <div class="featured-articles text-primary">
+                  <h3 class="font-weight-bold font-italic">News Poll</h3>
+                </div>
+                <app-news-poll></app-news-poll>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-aside-articles">
+      <app-news-sidebar [featuredArticles]="allNewsArticles"></app-news-sidebar>
+    </div>
+  </div>
+  <app-news-footer></app-news-footer>
+</div>

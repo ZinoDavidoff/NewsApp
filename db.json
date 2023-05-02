@@ -1,0 +1,392 @@
+{
+  "signInAdmin": [
+    {
+      "username": "admin",
+      "password": "Hemingway"
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "question": "What is your favorite color?",
+      "yesAnswer": "Red",
+      "noAnswer": "Blue",
+      "yesVotes": 45,
+      "noVotes": 108,
+      "creationDate": "2023-01-21T13:28:06.419Z",
+      "isArchived": false
+    },
+    {
+      "id": 2,
+      "question": "What is your favorite food?",
+      "yesAnswer": "Pizza",
+      "noAnswer": "Burger",
+      "yesVotes": 184,
+      "noVotes": 62,
+      "creationDate": "2023-04-23T13:28:06.419Z",
+      "isArchived": false
+    },
+    {
+      "id": 3,
+      "question": "What is your favorite music?",
+      "yesAnswer": "Rock",
+      "noAnswer": "Hip-Hop",
+      "yesVotes": 81,
+      "noVotes": 13,
+      "creationDate": "2023-05-01T13:28:06.419Z",
+      "isArchived": false
+    },
+    {
+      "id": 4,
+      "question": "What is your favorite drink?",
+      "yesAnswer": "Smoothie",
+      "noAnswer": "Orange Juice",
+      "yesVotes": 65,
+      "noVotes": 119,
+      "creationDate": "2023-03-11T13:28:06.419Z",
+      "isArchived": false
+    },
+    {
+      "id": 5,
+      "question": "What is your favorite cellphone?",
+      "yesAnswer": "Iphone",
+      "noAnswer": "Samsung",
+      "yesVotes": 1054,
+      "noVotes": 998,
+      "creationDate": "2023-03-12T13:28:06.419Z",
+      "isArchived": false
+    },
+    {
+      "question": "1 maji, a respektohen të drejtat e punëtorëve në Shqipëri?",
+      "yesAnswer": "Po",
+      "noAnswer": "Jo",
+      "yesVotes": 0,
+      "noVotes": 0,
+      "creationDate": "2023-05-01T15:57:27.989Z",
+      "isArchived": false,
+      "id": 6
+    },
+    {
+      "question": "Zgjedhjet e 14 majit, a janë të realizueshme premtimet e kandidatëve?",
+      "yesAnswer": "Po",
+      "noAnswer": "Jo",
+      "yesVotes": 1,
+      "noVotes": 2,
+      "creationDate": "2023-05-01T16:37:09.583Z",
+      "isArchived": false,
+      "id": 7
+    },
+    {
+      "question": "Zgjedhjet vendore, e keni vendosur për kë do të votoni më 14 maj?",
+      "yesAnswer": "Po",
+      "noAnswer": "Jo",
+      "yesVotes": 1,
+      "noVotes": 0,
+      "creationDate": "2023-05-02T12:11:41.163Z",
+      "isArchived": false,
+      "id": 8
+    }
+  ],
+  "newsArticles": [
+    {
+      "id": 127117,
+      "title": "Kthesa e fortë për Leao-n, “buzëqesh” Milan, tani mund të rinovojë",
+      "author": "Xhulian Musaka",
+      "category": "Sport",
+      "description": "Një pikë kthese befasuese për të ardhmen e Rafael Leaos dhe për rinovimin e kontratës së sulmuesit të Milan që skadon në qershor 2024. Sipas raportimeve të gazetës portugeze Record, në fakt, Lille, skuadra në të cilën Rafa mbërriti nga Sportingu i Lisbonës dhe nga i cili më pas u ble nga kuqezinjtë, është e gatshme të merrë përsipër gjobën e lidhur me transferimin.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/leao-1-scaled-e1680862460430-770x445.jpg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 663831,
+      "title": "FOTO/ “Nuk është Kylian Saint-Germain”, Mbappe shpërthen kundër klubit, krisje mes palëve",
+      "author": "Donaldo Duro",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/mbappe-770x433.jpg",
+      "description": "Nuk ka paqe mes Kylian Mbappe dhe PSG. Këtë herë për të ndezur debatin ndërmjet palëve ka mjaftuar një video, një fushatë reklamuese e klubit për abonimet në sezonin 2023/2024. Ashtu siç pritej, në qendër të fushatës ishte Kylian Mbappe, por ky detaj nuk është pritur mirë nga ylli francez i cili ka reaguar fort në një postimi në rrjetet e tij sociale:",
+      "isFeatured": false,
+      "published": "2023-04-19T12:36:33.390Z"
+    },
+    {
+      "id": 824873,
+      "title": "FOTO/ “I paprekshëm”, AS blindon Ancelottin, por Nagelsmann qëndron si “hije”",
+      "author": "Xhulian Musaka",
+      "category": "Sport",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/nagelsmann-1-770x433.jpg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 604160,
+      "title": "Në kërkim për përdhunim në Itali, arrestohet në Durrës 46-vjeçari i dënuar me 11 vite burg (EMRI)",
+      "author": "Xhulian",
+      "category": "Aktualitet",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/03/1617346265_PoliciAVlore1.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "isFeatured": true,
+      "published": "2023-04-19T12:11:06.539Z"
+    },
+    {
+      "id": 238987,
+      "title": "Gazment Bardhi kërkon largimin nga gara të kandidatit të PS në Mallakastër: Është i dënuar!",
+      "author": "Xhulian",
+      "category": "Politike",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/Gazment-Bardhi-1-768x567.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": true,
+      "published": "2023-04-19T12:34:42.776Z"
+    },
+    {
+      "id": 900805,
+      "title": "QKLL dhe QKK marrëveshje bashkëpunimi, konkurs për skenarë nga romanet shqiptare",
+      "author": "Xhulian",
+      "category": "Kulture",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/Bardhyli-768x512.jpeg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 807824,
+      "title": "Inflacioni ulet ndjeshëm në mars, por rritja e çmimeve të ushqimeve nuk ndalet, me ritme dy shifrore",
+      "author": "Xhulian",
+      "category": "Ekonomi",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/03/ushqime-768x512.jpg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 982073,
+      "title": "Zgjedhjet e jashtëzakonshme në Kosovë, Kurti me nota optimizmi: Janë bërë të gjitha përgatitjet, asnjë qytetari nuk mund t’i cenohet e drejta e votës",
+      "author": "Xhulian",
+      "category": "Rajoni",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": false,
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/kurti-770x381.jpg",
+      "published": "2013-10-21T13:28:06.419Z"
+    },
+    {
+      "id": 102657,
+      "title": "Kishte përshtatur banesën në ‘strofull’ për organizimin e paligjshëm të lojërave të fatit, pranga 43-vjeçarit në Sarandë",
+      "author": "Xhulian",
+      "category": "Aktualitet",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/Sarande.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "isFeatured": true,
+      "published": "2023-04-19T12:11:19.159Z"
+    },
+    {
+      "id": 238532,
+      "title": "Dy dekada të izoluar, PE voton sot vendimin për liberalizimin e vizave të Kosovës",
+      "author": "BalkanWeb",
+      "category": "Rajoni",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/340994170_914664649801815_3251516336186150816_n-1-1130x635-1.png",
+      "description": "Parlamenti Evropian voton sot vendimin për liberalizimin e vizave për qytetarët e Kosovës, ndërsa nesër më 19 prill, do nënshkruhet akti ligjor për liberalizimin e vizave, ndërsa hapi i vetëm që duhet të bëhet pas kësaj, është botimi i vendimit në Gazetën Zyrtare të BE-së dhe hyrja në fuqi e tij. Këshilli i ministrave të BE-së e ka miratuar me shumicë të thjeshtë liberalizimin e vizave për Kosovën, muajin e kaluar.\n\nTashmë është e qartë se zbatimi i vendimit nuk do të shtyhet më larg se 1 janari i vitit 2024. Kjo çështje ka qenë e lidhur me sistemin ETIAS të udhëtimit në Evropë, përkatësisht me hyrjen e tij në fuqi. Duke qene se afati për funksionalizimin e ETIAS-it është shtyrë për në vitin 2024, heqja e vizave për qytetarët e Kosovës pritet të bëhet më 1 janar të vitit të ardhshëm.\n\nParlamenti Evropian ka qenë institucioni i BE-së, i cili më së shumti e ka mbështetur lëvizjen e lirë të qytetarëve të Kosovës dhe vazhdimisht ka qortuar Këshillin e BE-së dhe Komisionin Evropian për, siç është thënë, vonesa të panevojshme në këtë proces.",
+      "isFeatured": true,
+      "published": "2023-04-18T09:56:31.920Z"
+    },
+    {
+      "id": 175657,
+      "title": "“Altoparlantët e non-gratës kanë nisur akuzat ndaj meje”/ Alibeaj-Berishës: Dallaveret s’ti beson më njeri. Janë të gjithë në radhë për SPAK",
+      "author": "BalkanWeb",
+      "category": "Politike",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/03/alibeaj-1.jpeg",
+      "description": "Kryetari i komanduar i PD, Enkelejd Alibeaj i është përgjigjur akuzave të ish-kryeministrit Sali Berisha.\n\n“Janë të gjithë në radhë për SPAK. Në fakt nuk i ka shqetësuar çështja e parave dhe financimeve, sepse ato kanë 33 vite që i fshehin në bashkëpunim me mediat e tyre, por se përse Erion Veliaj, ortaku i tyre politik dhe ekonomik, ka bërë të njëjtën pyetje. As nuk kisha ndërmend të merresha fare më një mashtrues kronik si Erion Veliaj, por meqë e kanë merak se përse ai ka ngritur të njëjtën pyetje, le të flasin me të. Unë thjesht ngrita një pyetje, ai me siguri di dhe përgjigjen e kësaj pyetje”, ka thënë ai.\n\nAlibeaj në një status në “Facebook”, thotë se ish-kryeministri nuk i është përgjigjur pyetjes se ku i gjen paratë që prenoton salla për fushatë.\n\nSTATUSI:\n\nReagim publik\n\nPrej dy ditësh, altoparlantët politikë të non-gratës për korrupsion masiv dhe minues i demokracisë, Sali Berishës, dhe mediat e financuara prej tij dhe familjes së tij, kanë filluar një sulm ndaj meje, vetëm e vetëm se unë kam ngritur thjesht një pyetje, që në fakt është një pyetje që e bëjnë të gjithë shqiptarët:\n\nKu i gjen paratë Sali Berisha, i cili ka një vit e gjysmë që prenoton stadiume, prenoton salla në të gjithë Shqipërinë, paguan autobusë dhe njerëz për ti mbushur këto salla, paguan media që të jetë 24 orë live edhe pse ligjërisht nuk është kryetari i asnjë partie politike?\n\nMirëpo Sali Berisha dhe ushtarët e tij mediatikë e politikë, në vend që ti përgjigjen kësaj pyetje dhe të bëjnë transparencën e parave te tyre, si gjithmonë, në stilin e politikës së urrejtjes dhe baltës , në stilin e tij prej politikani tashmë të marrë fund, e ka kthyer oborrin e tij politik e mediatik në mburojë të një njeriu të padëshiruar nga perëndimi për korrupsion masiv dhe minim të demokracisë.\n\nTë gjithë në rresht, për turpin e tyre, bëjnë garë se kush bërtet më shumë, kush fyen më shumë në emër të padronit të tyre.\n\nE kuptoj fare mirë hallin e tyre. Sa herë që i përmendin paratë, Sali Berisha dhe llogoret e tij mediatike në borderonë e tij, ulërasin, bërtasin dhe fyejnë këdo që i kërkon llogari dhe transparencë. E kuptoj fare mirë që ndihen të frikësuar.\n\nJanë të gjithë në radhë për SPAK. Në fakt nuk i ka shqetësuar çështja e parave dhe financimeve, sepse ato kanë 33 vite që i fshehin në bashkëpunim me mediat e tyre, por se përse Erion Veliaj, ortaku i tyre politik dhe ekonomik, ka bërë të njëjtën pyetje. As nuk kisha ndërmend të merresha fare më një mashtrues kronik si Erion Veliaj, por meqë e kanë merak se përse ai ka ngritur të njëjtën pyetje, le të flasin me të. Unë thjesht ngrita një pyetje, ai me siguri di dhe përgjigjen e kësaj pyetje.\n\nPyetja duhet të ishte drejtuar dhe Sali Berishës dhe Erion Velisë, sepse që të dy e dinë ku i gjen paratë Berisha. Sepse ditën bëjnë sikur zihen, ndërsa natën shijojnë lejet e ndërtimit dhe marrëveshjet okulte me kryebashkiakun, përfaqësues të oligarkisë së ndërtimit.\n\nSi ka mundësi që Sali Berisha nuk përmend asnjë oligark, bashkëpunëtor të Erion Velisë në ndërtimet e Tiranës?! A ka kurajo non-grata për korrupsion masiv dhe minues i demokracisë, të denoncojë lejet e ndërtimit të dhëna nga Erion Veliaj?\n\nPërgjigjia është shumë e thjeshtë: janë ortakë politik dhe ekonomik.\n\nOligarkët i kanë bashkë, paratë i ndajnë bashkë, politikën duan që ta zaptojnë bashkë.\n\nE megjithatë, përtej dallavereve politike të Sali Berishës që nuk i beson më askush, thelbi mbetet, pyetja mbetet:\n\nKu i gjen paratë Sali Berisha?\n\nPër përgjigjen, pyesni Erion Velinë. Ai di shumë më shumë se unë dhe se ne bashkë, se ku gjenden këto para.",
+      "isFeatured": true,
+      "published": "2023-04-19T12:35:09.736Z"
+    },
+    {
+      "id": 920513,
+      "title": "Plagosën për vdekje me thikë 20-vjeçarin në Tiranë, arrestohet një nga autorët, tjetri në kërkim",
+      "author": "Xhulian Musaka",
+      "category": "Aktualitet",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2022/08/thike-1-750x375-1.jpg",
+      "description": "Arrestohet një prej autorëve të vrasjes me thikë të 20-vjeçarit, Stivens Toshkesi gjatë natës te Rruga e Dibrës.\n\nBurime zyrtare bënë me dije se pas hekurave ka përfunduar vetëm një prej të rinjve, Ensi Maze, ndërkohë që autori tjetër, Axel Hoxhaj është në kërkim.\n\n“Si rezultat i kontrolleve të pandërprera të shërbimeve të Policisë, është kapur dhe vënë në pranga njëri nga autorët e ngjarjes së ndodhur gjatë natës, shtetasi E. M.”, thuhet në njoftimin shtesë të policisë.",
+      "isFeatured": true,
+      "published": "2023-04-19T10:38:00.738Z"
+    },
+    {
+      "id": 224640,
+      "title": "Neymar sërish baba, e dashura e brazilianit në pritje të ëmbël",
+      "author": "Balkanweb",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/neymar.jpg",
+      "description": "Neymar do të bëhet baba për herë të dytë. E dashura e tij Bruna Biancardi ndau fotot në Instagram, duke i treguar botës lajmin e tyre të lumtur. Krahas pesë fotove të ëmbla, 28-vjeçarja Biancardi shkroi:\n\n“Ne ëndërrojmë jetën tënde, planifikojmë ardhjen tënde dhe ta dish që ti je këtu për të kurorëzuar dashurinë tonë, i bën ditët tona shumë më të lumtura. Do të mbërrini në një familje të bukur, me vëllain, gjyshërit, xhaxhallarët dhe hallat që tashmë të duan shumë. Shihemi së shpejti biri/bija, mezi po të presim!”\n\nFotot tregojnë Neymarin duke mbajtur duart në barkun e partneres teksa puthen. Neymar shihet gjithashtu duke puthur barkun e Brunës, duke pozuar me të në një divan. Neymar ka gjithashtu një djalë 11-vjeçar, të quajtur Davi Lucca. Ylli i PSG-së u bë baba për herë të parë me ish të dashurën Carolina Dantas në moshën vetëm 19-vjeçare.",
+      "isFeatured": false,
+      "published": "2023-04-19T12:25:28.515Z"
+    },
+    {
+      "id": 686561,
+      "title": "“Nepotizëm në Bashkinë Tiranë”/ Zëdhënësja e Këlliçit: Ja lista e njerëzve nga e njëjta familje që i kushtojnë taksave tona 1 mln euro në vit",
+      "author": "Xhulian",
+      "category": "Politike",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/silvi-bardhi-2-768x512.jpg",
+      "description": "“Nepotizëm në Bashkinë Tiranë”/ Zëdhënësja e Këlliçit: Ja lista e njerëzve nga e njëjta familje që i kushtojnë taksave tona 1 mln euro në vit\n",
+      "isFeatured": true,
+      "published": "2023-04-19T12:38:04.501Z"
+    },
+    {
+      "id": 231306,
+      "title": "Bënte avokaten private ndërkohë që punonte në Ministrinë e Kulturës, Prokuroria ende pa hetim për shkeljet e zyrtares Elira Kokona",
+      "author": "Balkanweb",
+      "category": "Politike",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/elira-kokona.jpg",
+      "description": "Edhe pas shpërthimit të skandalit me konfliktin e interesit dhe fshehjen e të ardhurave nga zv.sekretarja e përgjithshme e Kryeministrisë Elira Kokona, prokuroria nuk ka nisur hetimin penal për mos deklarimin e pasurisë dhe interesave private nga nëpunësi publik dhe për shpërdorimin e detyrës. Dy vepra penale këto që dënohen respektivisht deri në 3 vjet burgim dhe deri në 7 vjet burgim.\n\nPo ashtu as Inspektorati i Lartë i Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave, nuk ka nisur ende verifikimet mbi fshehjen e të ardhurave nga Elira Kokona dhe faktin e ushtrimit të profesionit të avokatit privat prej saj, ndërkohë që ishte emëruar në detyra të larta shtetërore.\n\nSipas dokumenteve zyrtare zëvendës sekretarja e përgjithshme e Kryeministrisë Elira Kokona, pas emërimit në detyra të larta qeveritare në 2013, vazhdoi punën si avokate private, madje në çështje kundër vetë qeverisë shqiptare.\n\nNë shpërdorim të pastër detyre, Elira Kokona rezulton se ka përfaqësuar si avokate private paditës të ndryshëm në çështje kundër Shqipërisë në Strasburg apo arbitrazhe, ndërkohë që paralelisht ishte emëruar sekretare e përgjithshme në Ministrinë e Kulturës.\n\nPo ashtu pas emërimit në detyra të larta qeveritare zëvendës sekretarja e përgjithshme e kryeministrisë Elira Kokona, i fshehu Inspektoratit të Lartë të Deklarimit dhe Kontrollit të Pasurive dhe Konfliktit të Interesave, ushtrimin e aktivitetin e saj privat si avokate. Elira Kokona nuk ka deklaruar po ashtu as të ardhurat nga gjyqet kundër qeverisë në Strasburg apo në arbitrazhe.\n\nMe zgjedhjen ose emërimin e tij e në vazhdim, zyrtari ka për detyrë të parandalojë dhe të zgjidhë vetë, sa më parë dhe në mënyrën më të frytshme të mundshme, çdo gjendje të konfliktit të tij të interesit.\nMe standardet e vettingut për gjyqtarët dhe prokurorët që qeveria ka vendosur, Elira Kokona tashmë duhet të ishte shkarkuar me urgjencë nga detyra dhe të kishte hetimi së paku për dy vepra penale, mos deklarimin e të ardhurave dhe interesave privatë nga nëpunësi publik dhe shpërdorimi i detyrës.",
+      "isFeatured": false,
+      "published": "2023-04-19T13:19:37.884Z"
+    },
+    {
+      "id": 294469,
+      "title": "Kosova një hap më pranë anëtarësimit në KiE, Xhaçka: Hap i rëndësishëm për t’i dhënë vendin e merituar në Këshill!",
+      "author": "Balkanweb",
+      "category": "Rajoni",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/03/olta-xhacka.jpg",
+      "description": "Ministrja Olta Xhaçka ka reaguar për vendimin e sotëm të KiE. Në një status në “Twitter”, Xhaçka shprehet se është një lajm i shkëlqyer që Komiteti i Ministrave vendosi të pranojë kërkesën e Kosovës për anëtarësim dhe t’ia dërgojë Asamblesë Parlamentar për të dhënë mendimin e saj.\n\nSTATUSI:\n\nLajm i shkëlqyer nga Këshilli i Evropës!\n\nKomiteti i Ministrave vendosi të pranojë kërkesën e Kosovës për anëtarësim dhe t’ia dërgojë Asamblesë Parlamentare për të dhënë mendimin e saj.\n\nNjë hap i parë, i rëndësishëm për t’i dhënë Kosovës vendin e merituar në Këshill!\n",
+      "isFeatured": false,
+      "published": "2023-04-24T14:40:24.601Z"
+    },
+    {
+      "id": 638060,
+      "title": "Oferta e euros “lumë” para zgjedhjeve, rekordi i ri historik, monedha bie poshtë 112 lekëve",
+      "author": "Thoma Karakashi",
+      "category": "Ekonomi",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/03/euro-2.jpg",
+      "description": "Euro e ka nisur këtë javë me rënie të mëtejshme në kursin e këmbimit me lekun, duke zbritur për herë të parë poshtë kufirit të 112 lekëve dhe duke regjistruar një rekord të ri historik. Sipas kursit zyrtar të këmbimit të Bankës së Shqipërisë, euro u këmbye të hënën me 111.81 lekë.\n\nAgjentët e tregut të këmbimit valutor shprehen se rënie e euros në nivele të paprecedentë është e lidhur me ofertën shumë të lartë të monedhës europiane, që mund të shpjegohet me disa faktorë. Vlerësohet se të ardhurat nga turizmi hyrës kanë një tendencë të shtohen me hyrjen në tremujorin e dytë të vitit. Festat fetare të muajit prill gjithashtu mund të kenë sjellë një rritje të mëtejshme të prurjeve për shkak të kthimit të emigrantëve. Një tjetër faktor që, sipas agjentëve të tregut, mund të ndikojë kursin e këmbimit është fushata për zgjedhjet lokale të muajit maj.\n\nNë teori, do të ishte e pritshme që zgjedhjet të ndikonin më shumë në nënçmimin e monedhës vendase, si pasojë e ofertës nga rritja e shpenzimeve publike gjatë muajve para zgjedhjeve. Por, në fakt, një efekt i tillë nuk po shihet, madje po ndodh e kundërta. Agjentët vlerësojnë se në periudhat para zgjedhjeve shoqërohen me flukse të shtuara të valutës së huaj dhe kryesisht të euros, ndaj mund të supozohet se edhe fushata po luan një rol të vetin në rritjen e prurjeve të euros dhe në zhvlerësimin e saj.\n\nDëshmi e prurjeve shumë të mëdha të euros është edhe fakti se nënçmimi i euros nuk po ndalet as nga blerjet e Bankës së Shqipërisë, në shuma të konsiderueshme. Në dy javët e fundit, Banka e Shqipërisë ka blerë më shumë se 25 milionë euro në tregun e brendshëm, për nevojat e administrimit të rezervës valutore. E megjithatë as kjo nuk e ka frenuar zhvlerësimin e vazhdueshëm të monedhës europiane.\n\nMegjithëse ekspertët e kursit të këmbimit vlerësojnë se prurjet informale kanë një rol të rëndësishëm në zhvlerësimin e euros kundrejt lekut, në fakt kjo tendencë në afatin e gjatë mbështetet edhe lëvizjet e balancave makroekonomike. Sipas të dhënave nga Banka e Shqipërisë, deficiti i llogarisë korrente për vitin e kaluar zbriti në 1.08 miliardë euro, në rënie me 7.5% krahasuar me vitin 2021. Rënia e deficitit të llogarisë korrente ka ardhur kryesisht falë shtimit të të ardhurave nga turizmi, nga eksporti i shërbimeve dhe nga rritja e dërgesave të emigrantëve. Në terma realë, Banka e Shqipërisë nënvizon se se deficiti i llogarisë korente të Shqipërisë është reduktuar nga niveli 10.8% i PBB-së në vitin 2014 në nivelin 5.9% të PBB-së për vitin 2022.\n\nDuke pasur parasysh prurjet e mëdha të euros dhe theksimin e mëtejshëm të efektit sezonal në muajt e verës, agjentët mendojnë se me shumë të ngjarë rënia e euros ndaj lekut do të vazhdojë më tej.\n\nZhvlerësimi i euros po ndihmon në uljen e inflacionit, që në Shqipëri edhe në pikun e vet, vitin e kaluar, ka qenë në nivele ndjeshëm më të ulëta krahasuar me vendet e rajonit dhe të BE-së. Një nga faktorët vlerësohet se ka qenë pikërisht forcimi i lekut ndaj euros. Zhvlerësimi i euros me më shumë se 7% krahasuar me një vit më parë mund të favorizojë gjithashtu turizmin dalës të shqiptarëve jashtë vendit.\n\nPor, nga ana tjetër, rënia e paprecedentë e euros po dëmton gjithnjë e më shumë bizneset eksportuese të mallra dhe shërbimeve, që sigurojnë të ardhura në valutë, por shumicën e shpenzimeve i kryejnë në lekë.",
+      "isFeatured": false,
+      "published": "2023-04-24T15:22:17.115Z"
+    },
+    {
+      "id": 678910,
+      "title": "Refuzoi që të plotësonte formularin e votave për PS/ I mavijosur në fytyrë, punonjësi i bashkisë së Patosit rrëfen dhunën: Shefi më ndoqi në korridor dhe…",
+      "author": "Xhulian Musaka",
+      "category": "Politike",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/Capture-151.jpg",
+      "description": "Punonjësi i Bashkisë Patos, Bato Dalipaj, i cili u dhunua dje nga eprori i tij, ka folur sot në një intervistë për News24.\n\nBato Dalipaj u dhunua dje nga përgjegjësi i ndërmarrjes pasi nuk pranoi që të siguronte votat e familjarëve për PS, duke refuzuar kështu që të firmoste një formular se sa persona ishin në familje.\n\nDalipaj tha për gazetarin Ervis Kucci se gjatë natës ka pasur dhimbje të forta koke nga trauma. Ai tha se sapo kishte refuzuar që të plotësonte këtë formular, shefi i tij, Petrit Pëllumbi e kishte ndjekur në korridor dhe e kishte qëlluar nga pas.\n\n“Gjatë gjithë natës kam pasur dhimbje të forta koke. Nuk pranova të plotësoj formularin që më dhanë. Formulari kishte të bënte me zgjedhjet. S’kam pasur konflikte të mëparshme me askënd. Në ketë punë kam 10 muaj, me kohë të pjesshme. Në ketë punë që bëj marr 12.000 lekë në muaj”, tha ai.\n",
+      "isFeatured": false,
+      "published": "2023-04-26T08:07:44.777Z"
+    },
+    {
+      "id": 414222,
+      "title": "“Djajtë” joshin Harry Kane, The Sun zbulon ofertën marramendëse",
+      "author": "BalkanWeb",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/harry-kane-768x515.jpg",
+      "description": "Man.United është gati të bëjë gjithçka për t’i vendosur në dispozicion trajnerit Ten Hag sulmuesin e ëndrrave. Tekniku holandez e ka shprehur prej kohësh dëshirën e tij, kërkon me çdo kusht në “Old Trafford” bomberin anglez, Harry Kane.\n\nSipas The Sun, “djajtë e kuq” kanë gati paketën për të joshur Tottenham dhe sulmuesit.\n\n“Gjelat” do të përfitojnë 90 milionë euro nga kartoni i Harry Kane ndërsa lojtari do të përfitoj 300 mijë sterlina në javë, afro 17,5 milionë euro në vit.",
+      "isFeatured": false,
+      "published": "2023-04-26T08:20:57.263Z"
+    },
+    {
+      "id": 125879,
+      "title": "Dy pankina “trazojnë” Londrën, Chelsea e Tottenham zgjedhin “shpëtimtarët”",
+      "author": "BalkanWeb",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/chelssss-770x430.jpg",
+      "description": "Londra është kthyer në qendrën e merkatos, të paktën kur bëhet fjalë për trajnerë, pasi dy klubet e mëdha të kryeqytetit, Chelsea dhe Tottenham, janë në kërkim të një timonieri të ri.\n\nNë lidhje me blutë, është thuajse e sigurt që Pochettino do të jetë trajneri i ri, palët janë në detajet e fundit të negociatave.\n\nNdryshe nga Chelsea, në shtëpinë e Tottenham nuk janë ende të bindur se kush do të jetë pasuesi i Conte-s.\n\nPër momentin, Nagelsmann shihet si favoriti kryesor, por tekniku gjerman kërkon fuqi absolute në tregun e transferimeve.\n\n",
+      "isFeatured": false,
+      "published": "2023-04-26T08:22:13.691Z"
+    },
+    {
+      "id": 513364,
+      "title": "Fernando Alonso-Taylor Swift në një lidhje? Mediat spanjolle “kapen” pas fjalëve",
+      "author": "Xhulian",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/alonso-swift.jpg",
+      "description": "Fernando Alonso dhe Taylor Swift flitet se janë në një lidhje të re.  Disa faqe spanjolle nisën thashethemet. Duket se të dy kanë nisur lidhjen prej disa javësh edhe pse për momentin nuk ka asnjë foto apo video të tyre bashkë për të vërtetuar marrëdhënien.\n\nSidoqoftë, piloti i Formula 1 postoi një video gazmore në TikTok në të cilën duket se i referohet yllit të popit: në video ai shikon telefonin dhe më pas i shkel syrin kamerës, shoqëruar me shënimet e një versioni të përshpejtuar të Taylor-it “Karma” e shpejtë.\n\nSi Fernando Alonso, ashtu edhe Taylor Swift së fundmi janë rikthyer single: këngëtarja 33-vjeçare amerikane mbylli historinë e saj me aktorin Joe Alwyn, me të cilin ishte çift prej 6 vitesh; Ndërsa piloti spanjoll 41-vjeçar njoftoi së fundmi në rrjetet sociale përfundimin e lidhjes së tij, e cila zgjati një vit, me gazetaren austriake Andrea Schlager.",
+      "isFeatured": false,
+      "published": "2023-04-27T09:24:50.169Z"
+    },
+    {
+      "id": 715083,
+      "title": "Eliminohen Bucks, përmbysin kampionët, Lakers humbin një shans",
+      "author": "BalkanWeb",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/bucks-heat-2-e1682585940229.jpg",
+      "description": "NBA ka dhuruar surprizën e madhe, siç është eliminimi i Milwaukee Bucks, skuadra që e mbylli sezonin e rregullt me rekordin më të mirë. Bucks u mundën 128-126 nga Miami në kohën shtesë, në një ndeshje ku vendasit nuk zhfrytëzuan një avantazh prej 16 pikësh që kishin në periodën e tretë.\n\nMiami përmbysi shifrat në periodën e katërt falë Butler që realizoi 42 pikë, ndërsa Adebayo realizoi një “triple double” 20 pikë, 10 rebound e 10 asist. Për Milwaukee, Antetokounmpo realizoi 38 pikë e 20 rebound ndërsa Middleton 33 pikë, por që snuk mjaftuan për të fituar, duke u eliminuar që në çerekfinale.\n\nPërballë Miami në gjysmëfinale do të jetë New York, që fitoi 106-95 ndaj Cleveland, duke fituar 4-1 serinë e takimeve. Brunson me 23 pikë e Barrett me 21 bënë diferencën në fushë për njujorkezët, duke i bërë të pavlefshme 28 pikët e Mitchell për Cavaliers.\n\nNë Perëndim, Memphis rihap garën ndaj Lakers, duke fituar 116-99, por këta të fundit udhëheqin 3-2 serinë e ndeshjeve çerekfinakle. Davis realizoi 31 pikë e 19 rebound, por që s’mjaftuan për të fituar, ndërsa për Memphis dyshja Bane-Morant realizoi 64 pikë.\n\nNë avantazh 3-2 me ndeshje shkon ekipi kampion i Golden State, që mundi 123-116 Sacramento. Curry me 31 pikë ishte lider në fushë për Warriors, duke i bërë të pavlefshme 24 pikët e Fox për vendasit.",
+      "isFeatured": false,
+      "published": "2023-04-27T09:25:55.557Z"
+    },
+    {
+      "id": 178934,
+      "title": "“Magji” në “Etihad”, Manchester City i jep leksione futbolli Arsenalit, kreu i londinezëve në rrezik",
+      "author": "BalkanWeb",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/975ff1731775d358011009177f97e444o2-770x428.jpg",
+      "description": "Manchester City ka fituar ndeshjen direkte me Arsenalin me shifrat 4-1, duke bërë kështu që distanca me Gooners kryesues të jetë vetëm dy pikë, por skuadra nga Manchesteri ka edhe një sfidë më shumë për të luajtur.\n\n“Qytetarët” do merrnin avantazhin shumë shpejt. Në minutën e 7-të, Kevin de Bruyne do lëshonte një goditje nga distanca, e cila do ishte e pamundur për t’u pritr nga Ramsdale.\n\nEkipi i Guardiolës provoi të dyfishoi shifrave dhe iu afrua disa herë konkretizimit. Stones me kokë do “tundtte rrjetën” në fundin e fraksionit, por goli do anulohej fillimisht për pozicion jashtë loje, sakaq pas një rishikimi me VAR, tifozët dhe lojtarët mund të festonin lirisht, pasi u cilësua gjithccka e rregullt.\n\nPjesa e dytë do niste aty ku mbaroi e para. Vendasit do realizonin përsëri për të thelluar shifrat, sërish Kevin de Bruyne. Goli në fund i Holding do shërbente vetëm për statistikë, pasi fati i sfidës ishte i vulosur. Asgjë nuk kishte mbaruar, pasi në limite lë gjurmë edhe Haaland.",
+      "isFeatured": false,
+      "published": "2023-04-27T09:27:07.171Z"
+    },
+    {
+      "id": 155059,
+      "title": "Mjeshtër i finaleve, tani Inzaghi kërcënon Milanin: Duan finalen e Champions",
+      "author": "Donaldo",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/inter-2-768x512.jpg",
+      "description": "Simone Inzaghi shijon këtë kualifikim në finale, edhe një herë zikaltërit gjejnë “shpëtim” larg Serie A. Në pjesën më të madhe të sezonit, Inzaghi ka qenë në dyshim të fortë, por fakt është që siguruan një biletë për në finalen e Kupës, ndërsa janë pjesë e gjysmëfinales së Champions League:\n\n“Ishte një mbrëmje shumë e bukur. Sigurisht që ne e merituam të kalonim më tej pas këtyre dy ndeshjeve. Tani na mbeten edhe 10 ndeshje deri në fund, shpresoj të kemi 11(i referohet opsionit për të shkuar në finalen e Champions). Fillimisht të shijojmë këtë mbrëmje, i bëj komplimentet e mia djemve, nuk është e thjesht të luash me këto ritme”, u shpreh Inzaghi pas ndeshjes.\n\nAtmosfera është ndryshe në radhët e Juves, ky eliminim i lë një shihe të hidhur trajnerit Allegri:\n\n“Në pjesën e parë zhvilluam një ndeshje të përgjumur, çka solli dhe golin e pësuar. Në përgjithësi bëmë një ndeshje të mirë, por goditëm pak në kuadrat. Tani nuk na mbetet gjë tjetër, vetëm të rikuperojmë energjitë pasi kemi dhe një gjysmëfinale në Europa League”, theksoi Allegri pas ndeshjes.\n\n“Inter, e bukura e Kupës”, shkruan La Gazzetta dello Sport në faqen e parë. “Allegri, sa keq”, ishte titulli kryesor i Tuttosport.",
+      "isFeatured": false,
+      "published": "2023-04-27T09:28:32.757Z"
+    },
+    {
+      "id": 340152,
+      "title": "“Roboti” Haaland, shifrat e biondit të lënë pa fjalë. City shënon çdo 58 min",
+      "author": "Xhulian",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/HAALAND-2-768x430.jpg",
+      "description": "Erling Haaland nuk di të ndalet, një “makineri” perfekte që po thyen çdo rekord. Në çdo top që biondi e dërgon në rrjetë vendos një rend të ri në Premier League.\n\nPërballë Arsenal, Haaland shënoi golin e tij të 33-të sezonal në ishull, shifër që e ka arritur me 29 ndeshje në dispozicion. Haaland kalon në këtë mënyrë Mono Salah, ndërsa është vetëm një gol larg rekordit të Andy Cole dhe Alan Shearer me 34 gola sezonal.\n\nPër të kuptuar më qartë ndikimin e tij te Man.City mjafton t’i referomi disa shifrave. Në sezonin e tij të parë në ishull, Haaland ka realizuar 49 gola dhe ka dhuruar 8 asiste. Ekipi i Man.City arrin të shënojë gol çdo 58 minuta fal robotit të tij, Erling Haaland.",
+      "isFeatured": false,
+      "published": "2023-04-27T09:30:15.720Z"
+    },
+    {
+      "id": 710890,
+      "title": "“Tani e kemi fatin në dorë”, Pep sheh nga titulli. Arteta: Në Angli gjithçka mund të ndodhë",
+      "author": "Xhulian",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/guardiola-768x512.jpg",
+      "description": "Man.City dhuroi spektakël në “Etihad”, thyen Arsenal me “poker” golash duke e dërguar diferencën në minus dy pikë nga vendi i parë, por me dy ndeshje më pak. Ekipi i Pep Guardiola-s ishte thjesht perfekt përballë rivalëve për titullin, një leksion i pastër futbolli duke konfirmuar supermacinë e tyre në Premier League. Dyshja De Bruyne-Haaland ishin në një mbrëmje fantastike, por këtë herë ndryshuan rolet.\n\nNë minutën e 7-të, ishte ylli belg, De Bruyne mori një top nga Haaland, dribloi këdo i doli përpara duke kaluar “qytetarët” në avantazh. Në fundin e pjesës së parë, në minutën e 45-të, John Stons me kokë dyfishoi shifrat. Fillimisht anësori ndali festën për pozicion jashtë loje, por VAR la në fuqi golin e qendërmbrojtësit anglez.\n\nCity ishte i papërmbajtshëm, me fillimin e pjesës së dytë, De Bruyne me një goditje me shumë klas shënoi golin e dytë personal dhe të tretin për Man.City. Arsenal u përpoq të rikthehej në lojë, por goli i Holding erdhi vonë, në minutën e 86-të. Nuk mund të mungonte në këtë banket as Haaland me “bomberin” norvegjez që në limitet e sfidës sigloi shifrat përfundimtare në 4-1. Pep Guardiola shijon këtë sukses, i vetëdijshëm për peshën e kësaj fitoreje:\n\n“Gjëja më e rëndësishme e kësaj fitoreje është se tani e kemi vetë fatin në duar. Ishte një ndeshje shumë e rëndësishme, jo decizive, por e rëndësishme”, theksoi tekniku spanjoll.\n\nPranon këtë humbje Mikel Arteta: “City ishte më mirë se sa ne gjatë gjithë ndeshjes. Nuk e kishim asnjë herë shansin ta fitonim këtë sfidë, duhet ta pranojmë. Mungojnë ende edhe 5 ndeshje. Jam prej vitesh në Angli dhe e di shumë mirë se gjithçka mund të ndodhë, theksoi trajneri i Arsenal.",
+      "isFeatured": false,
+      "published": "2023-04-27T09:31:33.120Z"
+    },
+    {
+      "id": 484564,
+      "title": "Chelsea dështon sërish, humbje zhgënjyese në shtëpi, Liverpool përmbys West Ham",
+      "author": "Xhulian",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/rf.jpg",
+      "description": "Tjetër humbje, tjetër dështim, tjetër zhgënjim. Chelsea tregon edhe një herë se nuk është ky sezoni i tyre. Blutë e Londrës u mundën 0-2 në shtëpi nga Brentford, në ndeshjen e Premier League.\n\nIshte Azplicueta që realizoi autogol në minutën e 37-të, ndërsa Mbeumo qetësoi mysafirët në minutën e 78-të. Skuadra e Lampard është në vendin e 11-të, shumë larg pritshmërive.\n\nLiverpool fiton me përmbysje ndaj West Ham në transfertë me shifrat 1-2. Ekipi i Klopp reagoi mjaft mirë pas golit të Paqueta, duke kthyer situatën në favorin e The Reds pas golave të Gakpo dhe Matik. Liverpool merr suksesin e 3-të radhazi dhe është në vendin e gjashtë.\n\n",
+      "isFeatured": false,
+      "published": "2023-04-27T09:34:57.103Z"
+    },
+    {
+      "id": 563068,
+      "title": "Titulli, Sacchi: Kryevepër e Napolit, por tani vjen rreziku i vërtetë",
+      "author": "BalkanWeb",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/sacchi-allegri.jpg",
+      "description": "Napoli është shumë pranë titullit në Serie A, pas shumë vitesh mungesë. Për këtë arritje dhe për rikthim te suksesi të napoletanëve ka folur Arrigo Sacchi i cili vlerëson në maksimum skuadrën dhe punën e bërë nga trajneri Spalleti.\n\n“Napoli po krijon një kryevepër sepse në lojën e tyre është e gjithë shprehja e koherencës së lojtarëve. Osimhen, apo edhe Lobotka, të gjithë e kuptuan që ka diçka që të bën të fitosh: luaj gjithmonë lojën tënde, imponoje atë.\n\nPër t’u bërë një ekip kolektiv si ai që krijoi Luciano Spalleti, nevojiten tre gjëra: Motivimi, shpirti dhe loja. Rreziku i vërtetë vjen tani. Për të hapur një cikël fitues, duhet të jesh i kujdesshëm” – Tha ai.",
+      "isFeatured": false,
+      "published": "2023-04-27T09:36:04.485Z"
+    },
+    {
+      "id": 401003,
+      "title": "Tirana fiton pastër me Teutën, bardheblutë me një “këmbë” në finale të Kupës së Shqipërisë, Egnatia surprizon Vllazninë",
+      "author": "Xhulian",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/gt.jpg",
+      "description": "Tirana ka arritur të marrë një rezultat të rëndësishëm në ndeshjen e parë gjysmëfinale të Kupës së Shqipërisë ndaj Teutës, takim ky i luajtur në “Elbasan Arena”. Ekipi i drejtuar nga Orges Shehi triumfoi 3-0, duke i bërë gjërat edhe më të thjeshta për aktin e kthimit.\n\nBardheblutë mbyllën pjesën e parë në mënyrën më të mirë të mundshme. Florent Hasani tregoi klasin e tij në minutën e 43-të, teksa një goditje e bukur e tij me të majtën përfundoi pas shpinë së Qirkos.\n\nNë minutën e 65-të, gjatë zhvillimit të një këndoreje, Bruno Lulaj nga fare pranë portës gjen golin duke dërguar në festë tifozërinë kryeqytetase.\n\nNuk do vononte shumë edhe goli i 3-të. Ishte Lushkja që finalizoi si duhet para portës, duke hedhur në “tapet” durrsakët. Ndeshja e kthimit luhet me 11 maj dhe do përcaktojë finalistin e Kupës.\n\nVllaznia ka barazuar 1-1 në Shkodër me Egnatian.\n\nPas vetëm çerek ore lojë, rrogozhinasit iu afruan golit me Dwamena, por sulmuesi gjeti vetëm shtyllën me një goditje nga larg. Shkodranët provuan të takoheshin me golin në pjesën e parë, por pa ia dalë dot.\n\nDwamena u shndërrua në protagonist absolut në minutën e 69-të, kur i dribloi të gjithë dhe shënoi. Gjithçka nisi nga një kundërsulm, i cili rezultoi vrasës. Ekipi i Sedloskit pati shansin e artë për të vendosur ekuilibër, Latifi bën mëkat, pasi nuk përfitoi dot nga një top i mbetur në zonë dhe gjuajti keq. Barazimi erdhi në limite nga Hoxhaj. Sfida e kthimit luhet me 11 maj.",
+      "isFeatured": false,
+      "published": "2023-04-27T09:37:20.188Z"
+    },
+    {
+      "id": 223024,
+      "title": "Barcelona e vendosur, sulmuesi shitet në verë vetëm nëse vjen ofertë stratosferike",
+      "author": "Barcelona ",
+      "category": "Sport",
+      "image": "https://www.balkanweb.com/wp-content/uploads/2023/04/lewandowski-e-raphinha-lado-a-lado-antes-de-amistoso-de-pre-temporada-do-barcelona-1659753396530_v2_900x506.jpg",
+      "description": "Raphinha nuk pritet të jetë një çështje te Barcelona. Katalanasit kanë kontratë me lojtarin deri në vitin 2027 dhe edicioni i parë i sulmuesi në skuadrën blaugrana ka qenë pozitiv.\n\nTrajneri Xavi e ka në plane për sezonin e ardhshëm atë, largimi i Raphinha mund të vijë vetëm në rast të ndonjë oferte prej 60 milionë eurosh. Nuk përjashtohet që në verë të mbërrijë një propozim që mund të joshë klubin për të shitur brazilianin. Më parë, Raphinha ka luajtur për Leeds apo edhe Rennes.",
+      "isFeatured": false,
+      "published": "2023-04-27T09:38:30.026Z"
+    }
+  ]
+}

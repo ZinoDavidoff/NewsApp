@@ -1,0 +1,69 @@
+<div class="wrapper">
+    <div class="container-fluid container-nav">
+        <nav class="navbar justify-content-between">
+            <div [routerLink]="['/']" class="cursor-pointer font-weight-bold font-italic text-primary">
+                <img src="../../assets/logo.png" style="width: 50px;">
+                Blog
+            </div>
+            <app-news-search></app-news-search>
+        </nav>
+    </div>
+
+    <div class="container-fluid fluid">
+        <div class="new-article">
+            <div class="login-form">
+                <form [formGroup]="articleForm" method="post">
+                    <h2 class="text-center">Add New Article</h2>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <input type="text" id="id" class="form-control" formControlName="id" placeholder="id" readOnly="true">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" formControlName="author" placeholder="Author" required="required">
+                        </div>
+                        <div class="form-group col-md-4" style="margin-bottom: 0;">
+                            <div class="form-group dropdown-container">
+                                <button class="dropdown-toggle" type="button" (click)="toggleDropdown()">
+                                    {{ selectedCategory || 'Category' }}
+                                </button>
+                                <ul class="dropdown-menu form-control" [class.open]="isOpen">
+                                    <li *ngFor="let category of categories" (click)="selectCategory(category)">
+                                        {{ category }}
+                                    </li>
+                                </ul>
+                                <input type="hidden" formControlName="category">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" formControlName="title" placeholder="Title" required="required">
+                    </div>
+                    <div class="row">
+                        <div class="form-group" [ngClass]="!hasId ? 'col-md-10' : 'col-md-8'">
+                            <input type="text" class="form-control" formControlName="image" placeholder="Image" required="required">
+                        </div>
+                        <div class="form-group flex-featured" [ngClass]="!hasId ? '' : 'col-md-2'">
+                            <span class="featured">{{publishedDate | date:'d MMMM y | HH:mm': undefined :'sq-AL' | titlecase}}</span>
+                        </div>
+                        <div class="flex-featured form-group col-md-2">
+                            <input type="checkbox" formControlName="isFeatured"/>
+                            <span class="featured">IsFeatured</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea type="text" class="textarea form-control" formControlName="description" placeholder="Description" required="required"></textarea>
+                    </div>
+                    <div class="d-inline-block form-group">
+                        <button *ngIf="!hasId" type="button" class="btn btn-primary btn-lg btn-block" (click)="addNewArticle()">+ Add</button>
+                        <button *ngIf="hasId" type="button" class="btn btn-primary btn-lg btn-block" (click)="editNewsArticle()">+ Edit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="d-flex sticky-bottom container-fluid text-center">
+            <small>Copyright &copy; News Blog</small>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+
+<div class="fixed-sidebar">
+   <div class="news-sidebar" *ngFor="let article of featuredArticles">
+      <div *ngIf="article.isFeatured" class="news-aside-articles" >
+         <div routerLink="/allnewsarticles/article/{{ article.id }}" class="news-article-title">{{ article.title }}</div>
+         <div class="published-on">
+            {{ article.published | date:'d MMMM y | HH:mm': undefined :'sq-AL' | titlecase }}
+         </div>
+      </div>
+   </div>
+</div>

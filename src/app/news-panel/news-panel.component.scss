@@ -1,0 +1,160 @@
+.wrapper {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container-fluid {
+    max-width: calc(1490px + 3rem);
+}
+
+.container-nav {
+    margin: 0 auto;
+}
+
+.fluid {
+    margin: 1rem auto;
+    // overflow-y: scroll;
+    // height: calc(100vh - calc(65px * 2 - 2rem) - 65px);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.table {
+    margin-bottom: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table .table-header{
+    background: #007bff;
+    color: #fff;
+}
+
+.tableFixHead {
+    position: relative;
+    overflow-y: auto;
+    height: calc(100vh - calc(65px * 2 - 2rem) - 65px - 53.6px);
+}
+
+.tableFixHead thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+table th {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+  }
+  
+  table td {
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    padding: 5px;
+  }
+  
+  table th:first-child,
+  table td:first-child {
+    border-left: 2px solid white;
+  }
+
+td, th {
+    text-align: center;
+    vertical-align:middle;
+  }
+
+.action-buttons > span {
+    padding: .35rem;
+    cursor: pointer;
+}
+
+nav {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+form input {
+    border-radius: 25px;
+    border-radius: 25px;
+}
+
+.sticky-bottom {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: white;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: -1rem;
+    height: 66px;
+    align-items: center;
+    justify-content: center;
+}
+
+.aktualitet {
+    color: red;
+}
+
+.politike {
+    color: blue;
+}
+
+.sport {
+    color: green;
+}
+
+.ekonomi {
+    color: yellow;
+}
+
+.rajoni {
+    color: purple;
+}
+
+.kulture {
+    color: orange;
+}
+
+.showbiz {
+    color: pink;
+}
+
+.grid-template {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    gap: 2rem;
+    margin: 0 1.5rem;
+}
+
+.spinner {
+    position: fixed;
+    top: 46%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    border-top-color: #007bff;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .no-news {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img {
+    filter: invert(63%) sepia(84%) saturate(7494%) hue-rotate(201deg) brightness(105%) contrast(103%);
+  }

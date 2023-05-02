@@ -1,0 +1,60 @@
+    .poll-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .answer-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+
+    .result-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+
+    .yes-result {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .no-result {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .result-text {
+        margin-right: 10px;
+    }
+
+    .progress-bar {
+        width: 150px;
+        height: 10px;
+        background-color: #e6e6e6;
+    }
+
+    .progress {
+        height: 100%;
+        background-color: #007bff;
+        width: var(--percentage);
+        transition: width 0.5s ease, background-color 0.5s ease;
+    }
+
+    button {
+        padding: 10px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }

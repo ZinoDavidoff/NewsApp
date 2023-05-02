@@ -1,0 +1,27 @@
+<div class="poll-container">
+    <div *ngFor="let poll of polls">
+        <h5>{{ poll.question }}</h5>
+        <div class="answer-container">
+            <div class="result-container">
+                <div class="yes-result">
+                    <div class="result-text">{{ poll.yesVotes }} ({{ (poll.yesVotes / (poll.yesVotes + poll.noVotes)) *
+                        100 | number:'1.1-1' }}%) {{poll.yesAnswer}}</div>
+                    <div class="progress-bar">
+                        <div class="progress"
+                            style="--percentage: {{ (poll.yesVotes / (poll.yesVotes + poll.noVotes)) * 100 }}%"></div>
+                    </div>
+                </div>
+                <div class="no-result">
+                    <div class="result-text">{{ poll.noVotes }} ({{ (poll.noVotes / (poll.yesVotes + poll.noVotes)) *
+                        100 | number:'1.1-1' }}%) {{poll.noAnswer}} </div>
+                    <div class="progress-bar">
+                        <div class="progress"
+                            style="--percentage: {{ (poll.noVotes / (poll.yesVotes + poll.noVotes)) * 100 }}%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button (click)="deletePoll(poll.id)">Delete</button>
+        <button (click)="archivePoll(poll.id)">Archive</button>
+    </div>
+</div>
