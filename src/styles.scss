@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+body {
+    background-color: gainsboro;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 100px;
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+      background: #007bff;
+      border-radius: 100px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+      background: #016fe5;
+  }

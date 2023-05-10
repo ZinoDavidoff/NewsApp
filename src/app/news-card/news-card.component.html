@@ -1,0 +1,12 @@
+
+    <div class="card h-100" style="width: 300px; min-height: 400px;">
+        <img class="card-img-top w-100" [src]="newsArticle.image ?? '../../assets/news-default.png'" alt="{{newsArticle.title}}">
+        <div class="card-body">
+            <span class="badge" [ngClass]="getCategoryClass(newsArticle.category)">{{newsArticle.category}}</span>
+            <h5 routerLink="/allnewsarticles/article/{{ newsArticle.id }}" class="card-title">{{newsArticle.title}}</h5>
+            <span class="published-on">
+                {{newsArticle.published | date:'d MMMM y | HH:mm': undefined :'sq-AL' | titlecase }}
+            </span>
+        </div>
+    </div>
+

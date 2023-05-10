@@ -1,0 +1,60 @@
+<div class="wrapper">
+    <div class="container-fluid container-nav">
+        <nav class="navbar justify-content-between">
+            <div [routerLink]="['/']" class="cursor-pointer font-weight-bold font-italic text-primary">
+                <img src="../../assets/logo.png" style="width: 50px;">
+                Blog
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid fluid">
+        <div >
+            <div class="featured-articles text-primary">
+                <h3 class="text-center font-weight-bold font-italic">News Polls</h3>
+            </div>
+            <div class="poll-container" *ngFor="let poll of polls">
+                <h5 class="text-center">{{ poll.question }}</h5>
+                <div class="answer-container">
+                    <div class="result-container">
+                        <div class="yes-result">
+                            <div class="result-text">{{ poll.yesVotes }} ({{ (poll.yesVotes / (poll.yesVotes +
+                                poll.noVotes)) *
+                                100 | number:'1.1-1' }}%) {{poll.yesAnswer}}</div>
+                            <div class="progress-bar">
+                                <div *ngIf="poll.yesVotes + poll.noVotes > 0" class="progress"
+                                    style="--percentage: {{ (poll.yesVotes / (poll.yesVotes + poll.noVotes)) * 100 }}%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="no-result">
+                            <div class="result-text">{{ poll.noVotes }} ({{ (poll.noVotes / (poll.yesVotes +
+                                poll.noVotes)) *
+                                100 | number:'1.1-1' }}%) {{poll.noAnswer}} </div>
+                            <div class="progress-bar">
+                                <div *ngIf="poll.yesVotes + poll.noVotes > 0" class="progress"
+                                    style="--percentage: {{ (poll.noVotes / (poll.yesVotes + poll.noVotes)) * 100 }}%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center" style="font-weight: bold; font-size: 1.25rem;">
+                            Total Votes: {{poll.yesVotes + poll.noVotes}}
+                        </div>
+                        <div class="action-container">
+                            <button class="btn text-white" (click)="deletePoll(poll.id)">
+                                <i class="bi bi-trash-fill" style="color: #007bff; font-weight: bold; font-size: 1.25rem;"></i>
+                            </button>
+                            <button class="btn text-white" (click)="archivePoll(poll.id)">
+                                <i class="bi bi-archive-fill" style="color: #007bff; font-weight: bold; font-size: 1.25rem;"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="d-flex sticky-bottom container-fluid text-center">
+            <small>Copyright &copy; News Blog</small>
+        </div>
+    </div>
+</div>

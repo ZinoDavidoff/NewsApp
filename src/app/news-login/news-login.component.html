@@ -1,0 +1,28 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="login-form">
+                <form [formGroup]="loginForm" method="post">
+                <div class="avatar">
+                  <img src="https://cdn-icons-png.flaticon.com/512/6698/6698247.png" alt="Avatar">
+                </div>
+                    <h2 class="text-center">Admin Login</h2>   
+                    <div class="form-group">
+                      <input type="text" class="form-control" formControlName="username" placeholder="Username" required="required">
+                    </div>
+                   <div class="form-group">
+                        <input  type="password" class="form-control" formControlName="password" placeholder="Password" required="required">
+                    </div>        
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary btn-lg btn-block" (click)="login()">Sign in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  

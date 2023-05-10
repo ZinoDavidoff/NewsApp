@@ -1,0 +1,41 @@
+nav {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: white;
+    margin-bottom: 10px;
+    width: calc(300px * 4 + 30px);
+    position: relative;
+}
+
+.featured-articles {
+    width: 250px;
+    text-align: center;
+    align-self: center;
+  }
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+::ng-deep .hidden-login {
+    visibility: hidden;
+    opacity: 0;
+    font-size: unset;
+    color: #fff;
+    transition: all .1s ease-in-out .3s;
+}
+
+
+::ng-deep form > div:hover > span {
+    visibility: visible;
+    opacity: 1;
+    font-size: 1.75rem;
+    color: #007bff;
+    margin-left: 0;
+    transition: all .1s ease-in-out 5s;
+}
+
+img {
+    width: 50px;
+    filter: invert(63%) sepia(84%) saturate(7494%) hue-rotate(201deg) brightness(105%) contrast(103%);
+}

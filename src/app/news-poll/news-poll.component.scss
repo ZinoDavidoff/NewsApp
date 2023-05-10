@@ -1,0 +1,54 @@
+.poll-container {
+    background: white;
+    padding: 0.5rem;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
+.result-container {
+    text-align: center;
+}
+
+.answer-container {
+    text-align: center;
+}
+
+.answer-container button {
+    margin: .25rem;
+}
+
+.result-text {
+    margin-right: 10px;
+}
+
+.progress-bar {
+    margin:0 auto;
+    width: 150px;
+    height: 10px;
+    background-color: #e6e6e6;
+}
+
+.progress {
+    height: 100%;
+    background-color: #007bff;
+    width: var(--percentage);
+    transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+button {
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

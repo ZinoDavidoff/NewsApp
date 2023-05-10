@@ -1,0 +1,42 @@
+.news-aside-articles {
+    text-align: center;
+    background: white; 
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.news-aside-articles span {
+    text-align: start;
+}
+
+.news-article-title {
+    font-size: 14px;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+
+.news-article-title:hover {
+    color: #007bff;
+}
+
+.published-on {
+    text-align: end;
+    font-size: 11px;
+    color: #a0a0a0;
+}
+
+.fixed-sidebar {
+    position: fixed;
+    top: 66px;
+    height: calc(100vh - 66px);
+    text-align: center;
+    overflow-y: auto;
+    z-index: 9999;
+}
+
+.news-sidebar {
+    width: 250px;
+}
+

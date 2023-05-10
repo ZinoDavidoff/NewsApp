@@ -1,0 +1,22 @@
+<div class="poll-container">
+    <h5>{{ question }}</h5>
+    <div class="answer-container">
+      <button *ngIf="!hasVoted" (click)="vote('yes')">{{ yesAnswer }}</button>
+      <button *ngIf="!hasVoted" (click)="vote('no')">{{ noAnswer }}</button>
+      <div *ngIf="hasVoted" class="result-container">
+        <div class="yes-result">
+          <div class="result-text">{{ yesVotes }} Voters | ({{ yesPercentage | number:'1.1-1' }}%) {{ yesAnswer }}</div>
+          <div class="progress-bar">
+            <div class="progress" style="--percentage: {{ yesPercentage }}%"></div>
+          </div>
+        </div>
+        <div class="no-result">
+          <div class="result-text">{{ noVotes }} Voters | ({{ noPercentage | number:'1.1-1' }}%) {{ noAnswer }}</div>
+          <div class="progress-bar">
+            <div class="progress" style="--percentage: {{ noPercentage }}%"></div>
+          </div>
+        </div>
+        <div>Total Votes: {{totalVotes}}</div>
+      </div>
+    </div>
+  </div>

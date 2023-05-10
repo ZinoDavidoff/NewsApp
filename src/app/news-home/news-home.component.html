@@ -1,0 +1,19 @@
+<div class="container-fluid" style="margin-bottom: 1rem;">
+    <div class="nav-grid sticky-top d-flex align-items-center justify-content-between">
+      <app-news-navbar [ngClass]="'d-flex'"></app-news-navbar>
+    </div>
+    <div class="grid-preview-parents">
+      <div class="grid-parent">
+        <div class="grid-carousel">
+          <app-carousel [carouselNewsArticle]="_firstThreeNewsArticles"></app-carousel>
+        </div>
+        <div class="grid-news-articles" *ngFor="let article of _remainingNewsArticles">
+          <app-news-card [newsArticle]="article"></app-news-card>
+        </div>
+      </div>
+      <div class="grid-aside-articles">
+        <app-news-sidebar [featuredArticles]="allNewsArticles"></app-news-sidebar>
+      </div>
+    </div>
+    <app-news-footer></app-news-footer>
+</div>

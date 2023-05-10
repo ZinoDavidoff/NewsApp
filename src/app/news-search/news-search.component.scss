@@ -1,0 +1,49 @@
+.form-inline input {
+    border-radius: 25px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.filtered-articles {
+    list-style: none;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+    top: calc(100% - 10px);
+    max-height: 50vh;
+    overflow-y: auto;
+    width: 340px;
+    box-shadow: 0px 0px 10px 0px #9b9b9b,
+    0 1px 1px 0 #9b9b9b,
+    0 1px 3px 0 #9b9b9b;
+}
+
+.filtered-articles li {
+    margin-bottom: .5rem;
+    transition: color .3s ease-in-out;
+}
+
+.filtered-articles li:hover {
+    color: #007bff;
+}
+
+  .spinner {
+    right: -43%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    border-top-color: #007bff;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+

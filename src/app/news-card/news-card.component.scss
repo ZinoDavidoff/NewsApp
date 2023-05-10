@@ -1,0 +1,65 @@
+.card {
+    border-radius: 15px;
+    position: relative;
+}
+
+.card-img-top {
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card-body {
+    padding: .75rem;
+}
+
+.badge {
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.aktualitet {
+    background-color: red;
+  }
+  
+  .politike {
+    background-color: blue;
+  }
+  
+  .sport {
+    background-color: green;
+  }
+  
+  .ekonomi {
+    background-color: yellow;
+  }
+  
+  .rajoni {
+    background-color: purple;
+  }
+  
+  .kulture {
+    background-color: orange;
+  }
+  
+  .showbiz {
+    background-color: pink;
+  }
+
+.published-on {
+        font-size: 11px;
+        color: #a0a0a0;
+        position: absolute;
+        bottom: .75rem;
+        right: .75rem;
+}
+
+.card-title {
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+
+.card-title:hover {
+    color: #007bff;
+}
