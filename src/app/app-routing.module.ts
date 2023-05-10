@@ -7,6 +7,7 @@ import { NewsNewComponent } from './news-new/news-new.component';
 import { NewsDetailsComponent } from './news-details/news-details.component';
 import { NewsPollComponent } from './news-poll/news-poll.component';
 import { NewsNewpollComponent } from './news-newpoll/news-newpoll.component';
+import { NewsAllpollsComponent } from './news-allpolls/news-allpolls.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/allnewsarticles', pathMatch: 'full' },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'panel/:id', component: NewsNewComponent },
   { path: 'newarticle', component: NewsNewComponent },
   { path: 'newpoll', component: NewsNewpollComponent },
+  { path: 'allpolls', component: NewsAllpollsComponent}
 ];
 
 @NgModule({

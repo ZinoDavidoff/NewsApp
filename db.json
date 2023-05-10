@@ -7,16 +7,6 @@
   ],
   "polls": [
     {
-      "id": 1,
-      "question": "What is your favorite color?",
-      "yesAnswer": "Red",
-      "noAnswer": "Blue",
-      "yesVotes": 45,
-      "noVotes": 108,
-      "creationDate": "2023-01-21T13:28:06.419Z",
-      "isArchived": false
-    },
-    {
       "id": 2,
       "question": "What is your favorite food?",
       "yesAnswer": "Pizza",
@@ -63,7 +53,7 @@
       "yesVotes": 0,
       "noVotes": 0,
       "creationDate": "2023-05-01T15:57:27.989Z",
-      "isArchived": false,
+      "isArchived": true,
       "id": 6
     },
     {
@@ -80,11 +70,21 @@
       "question": "Zgjedhjet vendore, e keni vendosur për kë do të votoni më 14 maj?",
       "yesAnswer": "Po",
       "noAnswer": "Jo",
-      "yesVotes": 1,
+      "yesVotes": 2,
       "noVotes": 0,
       "creationDate": "2023-05-02T12:11:41.163Z",
       "isArchived": false,
       "id": 8
+    },
+    {
+      "question": "test?",
+      "yesAnswer": "test1",
+      "noAnswer": "test2",
+      "yesVotes": 0,
+      "noVotes": 1,
+      "creationDate": "2023-05-09T10:00:40.451Z",
+      "isArchived": false,
+      "id": 10
     }
   ],
   "newsArticles": [
