@@ -18,6 +18,8 @@ export class NewsPollComponent implements OnInit {
   yesVotes: number;
   noVotes: number;
 
+  yesChecked: boolean;
+
   hasVoted: boolean = false;
 
   constructor(private pollService: PollService) { }
@@ -44,9 +46,9 @@ export class NewsPollComponent implements OnInit {
       })
   }
 
-  vote(answer: string): void {
+  vote(answer: boolean): void {
     if (!this.hasVoted) {
-      if (answer === 'yes') {
+      if (answer) {
         this.yesVotes++;
       } else {
         this.noVotes++;

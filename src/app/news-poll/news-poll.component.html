@@ -1,8 +1,19 @@
 <div class="poll-container">
     <h5>{{ question }}</h5>
     <div class="answer-container">
-      <button *ngIf="!hasVoted" (click)="vote('yes')">{{ yesAnswer }}</button>
-      <button *ngIf="!hasVoted" (click)="vote('no')">{{ noAnswer }}</button>
+      <!-- <button *ngIf="!hasVoted" (click)="vote('yes')">{{ yesAnswer }}</button>
+      <button *ngIf="!hasVoted" (click)="vote('no')">{{ noAnswer }}</button> -->
+      <div class="answer-grid" *ngIf="!hasVoted">
+        <label>
+          <input type="radio" name="answer" (change)="yesChecked = true">
+          {{ yesAnswer }}
+        </label>
+        <label>
+          <input type="radio" name="answer" (change)="yesChecked = false">
+          {{ noAnswer }}
+        </label>
+        <button class="vote-btn" [disabled]="yesChecked === undefined" (click)="vote(yesChecked)">Vote</button>
+      </div>
       <div *ngIf="hasVoted" class="result-container">
         <div class="yes-result">
           <div class="result-text">{{ yesVotes }} Voters | ({{ yesPercentage | number:'1.1-1' }}%) {{ yesAnswer }}</div>

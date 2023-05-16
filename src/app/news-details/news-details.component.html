@@ -6,16 +6,16 @@
     <div class="grid-parent">
       <div class="container-details">
         <div class="card">
-            <h5 class="card-title" style="margin: 0; padding: 1.25rem;">{{article.title}}</h5>
-          <img class="card-img-top" [src]="article.image ?? '../../assets/news-default.png'" alt="{{article.title}}">
+            <h5 class="card-title" style="margin: 0; padding: 1.25rem;">{{article?.title}}</h5>
+          <img class="card-img-top" [src]="article?.image ?? '../../assets/news-default.png'" alt="{{article?.title}}">
           <div class="card-body">
-            <span class="badge" [ngClass]="getCategoryClass(article.category)">{{article.category}}</span>
+            <span class="badge" [ngClass]="getCategoryClass(article?.category)">{{article?.category}}</span>
             <div class="author">
-              <span>Author: <i class="bi bi-person-fill" style=" color: #007bff;"></i> {{article.author}}</span>
+              <span>Author: <i class="bi bi-person-fill" style=" color: #007bff;"></i> {{article?.author}}</span>
             </div>
-            <p style="white-space: break-spaces;">{{article.description}}</p>
+            <p style="white-space: break-spaces;">{{article?.description}}</p>
             <span class="published-on" style="font-size: 14px;">
-              {{article.published | date:'d MMMM y | HH:mm': undefined :'sq-AL' | titlecase}}
+              {{article?.published | date:'d MMMM y | HH:mm': undefined :'sq-AL' | titlecase}}
             </span>
           </div>
           <div class="previous-next-articles">

@@ -1,15 +1,17 @@
-<form [formGroup]="pollForm">
-    <div class="form-group">
-        <label for="question">Question:</label>
-        <input type="text" id="question" formControlName="question">
-    </div>
-    <div class="form-group">
-        <label for="yesAnswer">Yes Answer:</label>
-        <input type="text" id="yesAnswer" formControlName="yesAnswer">
-    </div>
-    <div class="form-group">
-        <label for="noAnswer">No Answer:</label>
-        <input type="text" id="noAnswer" formControlName="noAnswer">
-    </div>
-    <button type="submit" class="btn btn-primary" [disabled]="!pollForm.valid" (click)="addPoll()">Create Poll</button>
-</form>
+<div class="container-form">
+    <form [formGroup]="pollForm">
+        <div class="form-group">
+            <label for="question">Question:</label>
+            <textarea type="text" id="question" formControlName="question"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="yesAnswer">Answer One:</label>
+            <input type="text" id="yesAnswer" formControlName="yesAnswer">
+        </div>
+        <div class="form-group">
+            <label for="noAnswer">Answer Two:</label>
+            <input type="text" id="noAnswer" formControlName="noAnswer">
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="!pollForm.valid" (click)="addPoll()">Create Poll</button>
+    </form>
+</div>

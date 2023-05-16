@@ -13,8 +13,8 @@
       "noAnswer": "Burger",
       "yesVotes": 184,
       "noVotes": 62,
-      "creationDate": "2023-04-23T13:28:06.419Z",
-      "isArchived": false
+      "creationDate": "2023-03-16T11:10:06.419Z",
+      "isArchived": true
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "yesVotes": 65,
       "noVotes": 119,
       "creationDate": "2023-03-11T13:28:06.419Z",
-      "isArchived": false
+      "isArchived": true
     },
     {
       "id": 5,
@@ -44,7 +44,7 @@
       "yesVotes": 1054,
       "noVotes": 998,
       "creationDate": "2023-03-12T13:28:06.419Z",
-      "isArchived": false
+      "isArchived": true
     },
     {
       "question": "1 maji, a respektohen të drejtat e punëtorëve në Shqipëri?",
@@ -77,14 +77,34 @@
       "id": 8
     },
     {
-      "question": "test?",
-      "yesAnswer": "test1",
-      "noAnswer": "test2",
+      "question": "Zgjedhjet vendore 2023, si e konsideroni procesin zgjedhor në tërësi?",
+      "yesAnswer": "I mirë",
+      "noAnswer": "Problematik",
       "yesVotes": 0,
       "noVotes": 1,
-      "creationDate": "2023-05-09T10:00:40.451Z",
+      "creationDate": "2023-05-16T09:33:02.344Z",
+      "isArchived": false,
+      "id": 9
+    },
+    {
+      "question": "Pse PS fitoi thellë zgjedhjet vendore të 14 Majit?",
+      "yesAnswer": "Mirëqeverisja",
+      "noAnswer": "Opozitë e dobët",
+      "yesVotes": 0,
+      "noVotes": 1,
+      "creationDate": "2023-05-16T09:14:04.015Z",
       "isArchived": false,
       "id": 10
+    },
+    {
+      "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry?",
+      "yesAnswer": "Yes",
+      "noAnswer": "No",
+      "yesVotes": 1,
+      "noVotes": 3,
+      "creationDate": "2023-05-16T10:00:37.985Z",
+      "isArchived": false,
+      "id": 22
     }
   ],
   "newsArticles": [

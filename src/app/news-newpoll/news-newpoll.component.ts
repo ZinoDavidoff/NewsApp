@@ -36,7 +36,7 @@ export class NewsNewpollComponent implements OnInit {
     this.pollService.addPoll(this.pollForm.value)
     .subscribe(() => {
       this.notifyService.showInfo("Success", `The News Poll has been created`)
-      this.router.navigate(['/panel']);
+      this.router.navigate(['/allpolls']);
     },
     error => {
       this.notifyService.showError("Error", `${error}`)

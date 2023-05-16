@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { map } from 'rxjs';
+import { interval, map, timer } from 'rxjs';
 import { Poll, PollService } from '../poll.service';
 
 @Component({
@@ -10,18 +10,27 @@ import { Poll, PollService } from '../poll.service';
 export class NewsAllpollsComponent implements OnInit {
 
   polls: Poll[] = [];
-
+  
   constructor(private pollService: PollService) { }
 
   ngOnInit(): void {
-    this.getAllPolls()
+    this.getAllPolls();
   }
 
   getAllPolls(): void {
     this.pollService.getPolls().pipe(
-      map(polls => polls.filter(poll => !poll.isArchived))
+      map(polls =>
+        polls.filter(poll => !poll.isArchived).sort((a, b) => new Date(b.creationDate).getTime() - new Date(a.creationDate).getTime())
+      ),
     ).subscribe(filteredPolls => {
       this.polls = filteredPolls;
+      filteredPolls.forEach(poll => {
+        const timeDiff = new Date().getTime() - new Date(poll.creationDate).getTime();
+        const daysDiff = timeDiff / (1000 * 60 * 60 * 24);
+        if (daysDiff > 60) {
+          this.pollService.archivePoll(poll.id).subscribe();
+        }
+      });
     });
   }
 
